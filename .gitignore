@@ -1,0 +1,21 @@
+# PlatformIO / Arduino
+.pio/
+.vscode/
+*.bin
+*.elf
+*.map
+
+# Credenciales privadas
+include/secrets.h
+secrets.h
+.env
+.env.*
+
+# Audios personales
+*.mp3
+*.wav
+include/audio_memoria_private.h
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
