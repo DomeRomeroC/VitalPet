@@ -30,16 +30,18 @@ Cuando la mascota se acerca y las condiciones de operación son válidas, el ESP
 ## Estructura del repositorio
 
 ```text
-VitalPet_GitHub/
+VitalPet/
+│
 ├── README.md
-├── SECURITY.md
 ├── .gitignore
-├── include/
-│   ├── apwifieeprommode.h
-│   ├── audio_memoria.h
-│   └── secrets.h.example
-└── src/
-    └── main.cpp
+│
+├── src/
+│   └── main.cpp
+│
+└── include/
+    ├── apwifieeprommode.h
+    ├── audio_memoria.h
+    └── secrets.h.example
 ```
 
 ## Configuración de credenciales
